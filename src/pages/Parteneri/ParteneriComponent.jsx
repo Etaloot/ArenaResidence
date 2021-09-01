@@ -1,4 +1,5 @@
 import React from "react";
+import "./Parteneri.scss";
 import { Carousel } from "3d-react-carousal";
 
 import BarrierLogo from "../../images/parteneri/barrier.svg";

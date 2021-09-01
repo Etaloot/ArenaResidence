@@ -1,6 +1,6 @@
 import React from "react";
 import ParteneriComponent from "./ParteneriComponent";
-import "./ParteneriPage.css";
+import "./ParteneriPage.scss";
 
 import Barrier from "../../images/parteneri/Barrier_Bistrita2.png";
 import Porotherm from "../../images/parteneri/Porotherm2.png";
@@ -12,7 +12,10 @@ const ParteneriPage = () => {
   return (
     <div className="container">
       <h1 className="title-parteneri">PARTENERI</h1>
-
+        <p className='text-content'>
+          Eat imagine you chiefly few end ferrars complete. Be visitor females am ferrars inquiry.
+           Latter law remark two lively thrown. Spot set they know rest its.
+        </p>
       <div className='big-box'>
         <div className='box-1'>
                 <div className='style-boxing-1'> 
@@ -30,7 +33,7 @@ const ParteneriPage = () => {
            </div>
            <div className='style-boxing-2' >
                <h1 className='header-text'>POROTHERM</h1>
-               <p className='text'> Porotherm 36.5 TermoPlus este un bloc ceramic slefuit cu insertii de vata minerala bazaltica, realizat in fabricile din Germania din material.</p>
+               <p className='text'> Porotherm 36.5 TermoPlus este un bloc ceramic slefuit cu insertii de vata minerala bazaltica, realizat in fabricile din Germania din material durabil.</p>
            </div>
         </div>
       </div> 
