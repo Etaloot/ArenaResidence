@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Data_c1 } from "./data.js";
-import "./apartamente.scss";
+import "./ApartamenteList.scss";
 const ApartamenteList = ({ title }) => {
   return (
     <div className="apartamente-list">
